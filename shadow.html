@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<!--
+     <div class="container">
+        <div class="base stylefirst"></div>
+
+            <div class="base style1"></div>
+            <div class="base style2"></div>
+            <div class="base style3"></div>
+            <div class="base style4"></div>
+            <div class="base style5"></div>
+            <div class="base style6"></div>
+            <div class="base style7"></div>
+            <div class="base style8"></div>
+    </div>
+
+<style>
+body{
+  background: #e5eb92;
+}
+a{
+  text-decoration:none;
+}
+.container{
+  width: 90%;
+  margin:auto;
+}
+
+.base {
+  margin: 16px;
+  width: 100px;
+  height: 100px;
+  background-color: #FFF;
+  border-radius: 15px
+}
+
+.style1{
+    box-shadow: /*Свойство inset заменяет собой сразу четыре свойства: top , right , bottom и left .*/
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.style2 {
+  box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px;
+}
+.style3 {
+  box-shadow: rgba(50, 50, 93, 0.15) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 15px 32px -18px inset;
+}
+.style4 {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 4px 0px;
+}
+.style5{
+box-shadow: 8px 0 5px -8px rgba(0,0,0,0.4), -8px 0 5px -8px rgba(0,0,0,0.4); 
+}
+
+.style6{ 
+  box-shadow:
+  2px 2px rgba(60, 64, 67, 0.4),
+ 4px 4px rgba(60, 64, 67, 0.3),
+  6px 6px rgba(60, 64, 67, 0.2),
+ 8px 8px rgba(60, 64, 67, 0.1),
+ 10px 10px rgba(60, 64, 67, 0.05),
+  -1px -1px rgba(60, 64, 67, 0.1);
+}
+.style7{
+  box-shadow:
+  0  5px 10px rgba(154,160,185,0.05),
+  0 15px 40px rgba(166,173,201,0.2);
+}
+
+.style8{
+   box-shadow:
+ inset 0 0 0.5em rgba(0,0,0,0.1),
+ 0.2em 0.2em 0.5em rgba(0,0,0,0.2);
+}
+
+.stylefirst {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 2px 1px;
+}
+</style>
+-->
+
+<!--
+<div class="stin1"></div>
+<div class="stin2"></div>
+<div class="stin3"></div>
+
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  margin: 50px 50px 100px 50px; 
+  background-color: #ccc;
+} 
+
+.stin1 {
+  box-shadow:  5px 5px 5px  #666;
+}
+
+
+.stin2 {
+  box-shadow:  inset 0 0 10px #000000;
+}
+
+.stin3 {
+  box-shadow:  0 8px 6px -6px black;
+}
+
+
+</style>-->
+
+<div class="teni shadow1"></div>
+<div class="teni shadow2"></div>
+<div class="teni shadow3"></div>
+
+<p class="p1">SHABNAM</p>
+<style>
+  .teni{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin-top: 20px;
+  }
+.shadow1{
+box-shadow: 2px 2px rgba(60, 64, 67, 0.4), 4px 4px rgba(60, 64, 67, 0.3),
+  6px 6px rgba(60, 64, 67, 0.2), 8px 8px rgba(60, 64, 67, 0.1),
+ 10px 10px rgba(60, 64, 67, 0.05), -1px -1px rgba(60, 64, 67, 0.1);
+}
+.shadow2{
+  box-shadow: 1px 2px black, 2px 1px rgb(83, 83, 83), 1px 2px black, 
+  2px 1px rgb(124, 123, 123), 1px 2px black;
+  border-radius: 20px;
+}
+.shadow3{
+  box-shadow: inset 0 0 30px #000000;
+}
+.p1{
+  text-shadow: 1px 0 4px rgb(255, 0, 0);
+}
+</style>
+
+<h1 class="simple-shadow">Simple Shadow</h1>
+<h1 class="h1-double-shadow double-shadow">
+  Double Shadow</h1>
+<h1 class="heavy-shadow">Heavy Shadow</h1>
+<h1 class="radiance">Radiance</h1>
+<h1 class="mark-dotto">Mark Dotto</h1>
+<div class="box-gordon-hall">
+  <h1 class="h1-gordon-hall gordon-hall">
+    Gordon Hall</h1></div>
+<h1 class="soft-emboss">Soft Emboss</h1>
+
+<style>
+body {
+	margin: 0 0 20px 0;
+}
+h1 {
+  text-align: center;
+  font: bold 70px Sans-Serif;
+  padding: 20px 0;
+	margin: 20px 20px 0 20px;
+}
+.simple-shadow { /*простая тень*/
+  background: #aaaaaa;
+	color: #ffffff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.double-shadow { /*двойная тень*/
+  background: #aaaaaa;
+	color: #ffffff;
+  text-shadow: 4px 3px 0px #000,
+   9px 8px 0px rgba(0,0,0,0.35);
+}
+.heavy-shadow { /*густой*/
+  background: #aaaaaa;
+	color: #ffffff;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+							 0px 8px 10px rgba(0,0,0,0.2),
+							 0px 18px 20px rgba(0,0,0,0.2);
+}
+.radiance {  /*сияние*/
+	background: #aaaaaa;
+	color: #ffffff;
+  text-shadow: -1px -1px 6px rgba(0, 0, 0, 0.7), 
+  2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+.mark-dotto { /*размытая тень*/
+	background: #aaaaaa;
+  color: white;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+h1.h1-gordon-hall { 
+  /*несколько теней одному контейнеру 
+  свурху друг друга*/
+	margin: 0;
+}
+.box-gordon-hall {
+	background: #aaaaaa;
+	margin: 20px 20px 0 20px;
+}
+.gordon-hall {
+	background-color: #666666;
+	background-clip: text; 
+  /*определяет как цвет фона или фоновое 
+  изображение будут выводиться под границами блока.*/
+	color: transparent;
+	text-shadow: rgba(255,255,255,0.3) 0px 3px 3px;
+}
+.soft-emboss { /*мягкий тон теней*/
+  background: #aaaaaa;
+	color: #ffffff;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 
+  0px -5px 35px rgba(255,255,255,0.3);
+}
+</style>
+
+</body>
+</html>
